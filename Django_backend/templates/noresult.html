@@ -1,0 +1,64 @@
+{% load static %}
+
+
+<!doctype html>
+
+<html>
+<head>
+	<title>No Result</title>
+	<link  href="{% static 'CSS/assets.css' %}" rel="stylesheet" type="text/css">
+	<style type="text/css">
+    
+    span.name { color:#17b2b3;font-weight:bold;font-family:Tahoma;font-size:25 }
+    </style>
+	
+</head>
+
+<!-- 
+ navbar start  --> 
+	<div class="menudropdown1" id="main">
+		<nav>
+			<ul style="float:left;
+	
+	        font-weight: bold;">
+				<li ><a class="detail" style= "font-size:25px; color: black;">Equi<span class="name">Med</li>
+			</ul> 
+		
+			<ul>
+				<li id="home"><a>Home</li>
+				<li><a class="logo-image">Results</li>
+				
+
+				 
+                    
+                        <div>
+                            <div class="title">
+                                <h2>Analysis Completed </h2>
+                                <h1>and you don't have Cataract</h1>
+                                
+                        </div>
+				</ul>
+			</ul>
+		</nav>
+	</div>
+
+<!-- navbar end	 -->
+<button class="button" button1 style="position: absolute;
+                    bottom: 250px;
+                    left: 530px;
+                    background-color: #17b2b3;
+                    border: none;
+                    color: white;
+                    opacity: 0.7;
+                    padding: 15px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 12px" onclick="analyse()" id="toggle"  >Check Another Result</button>
+
+	
+</html>
+
