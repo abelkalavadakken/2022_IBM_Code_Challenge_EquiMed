@@ -1,0 +1,73 @@
+{% load static %}
+
+<!doctype html>
+
+<html>
+<head>
+	<title>Analyse</title>
+	<link  href="{% static 'CSS/assets.css' %}" rel="stylesheet" type="text/css">
+	<style type="text/css">
+    
+    span.name { color:#17b2b3;font-weight:bold;font-family:Tahoma;font-size:25 }
+    </style>
+	
+</head>
+
+<!-- 
+ navbar start  --> 
+	<div class="menudropdown1" id="main">
+		<nav>
+			<ul style="float:left;
+	
+	        font-weight: bold;">
+				<li ><a class="detail" style= "font-size:25px; color: black;">Equi<span class="name" >Med</li>
+			</ul> 
+		
+			<ul>
+				<li id="home"><a>Home</li>
+				<li><a class="logo-image">Results</li>
+				<li><a>Result</li>	
+
+				 
+                    
+                        <div>
+                            <div class="title">
+                                <h3>Analysis Complete</h3>
+                                
+                        </div>
+				</ul>
+			</ul>
+		</nav>
+	</div>
+
+<!-- navbar end	 -->
+
+	<img src="{% static 'CSS/ui-15.svg' %}" width="330" height="280" style="position: absolute; bottom: 120px;left: 470px;">
+
+<button class="button" button1 style="position: absolute;
+    bottom: 30px;
+    left: 560px;
+    background-color: #17b2b3;
+  border: none;
+  color: white;
+  opacity: 1.0;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px" onclick="showresult()" id="toggle"  >Check Results</button>
+
+</body>
+
+<script type="text/javascript">
+  function showresult() {
+  // alert("Successfully uploaded the image");
+  window.location.href = 'result.html';
+
+}
+</script>
+</html>
+

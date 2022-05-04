@@ -1,0 +1,272 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: verdana;
+}
+#main
+{
+	width:100%;
+	height:60vh;
+/*	background-image:url("bgimg.png");*/
+
+	background-size:cover;
+}
+nav{
+	width:100%;
+	height:80px;
+	background-color:#F8F9F9 ;
+	opacity:1.0;
+	line-height:80px;
+}
+nav ul{
+    
+	float:right;
+	margin-right:20px;
+	
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	transition:0.8s all;
+}
+nav ul li:hover{
+	background-color:black;
+	opacity: 0.5;
+
+        
+}
+nav ul li a{
+	text-decoration:none;
+	color:#17b2b3;
+	padding:30px;
+}
+
+.title h1{
+    position: absolute;
+    bottom: 300px;
+    left: 450px;
+    font-size: 30px;
+    color: #34495E;
+    font-family: 'IBM Plex Sans', sans-serif;
+    opacity: 1.0;
+}
+.title h2{
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    font-size: 30px;
+    color: #34495E;
+    font-family: 'IBM Plex Sans', sans-serif;
+    opacity: 1.0;
+}
+.logo img{
+    float:left;
+    width:150px;
+    height: auto;
+}
+
+.title b
+{
+    color: orange;
+}
+.title h3{
+    position: absolute;
+    bottom: 420px;
+    left: 500px;
+    font-size: 30px;
+    color: #34495E;
+    font-family: 'IBM Plex Sans', sans-serif;
+    opacity: 1.0;
+}
+
+
+
+/*file css*/
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}*/
+
+
+.wrapper{
+	position: absolute;
+    bottom: 20px;
+    left: 430px;	
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  
+}
+.wrapper header{
+  color:#17b2b3;
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper form{
+  height: 80px;
+  color:#17b2b3;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*border-radius: 5px;*/
+  /*border: 2px dashed #17b2b3;*/
+}
+
+.wrapper .image{
+	position: absolute;
+	height: 100%;
+	width: 100%
+	display:flex;
+	align-items: flex;
+	justify-content: center;
+}
+.wrapper .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+
+}
+
+
+/*body{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background-color: #2a9d8f;
+}*/
+.progress{
+    position: relative;
+    bottom: 130px;
+    height: 10px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.progress .color{
+    position: absolute;
+    background-color: #17b2b3;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
+
+/*form :where(i, p){
+  color:#17b2b3;
+}
+form i{
+  font-size: 50px;
+}
+form p{
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+section .row{
+
+  margin-bottom: 10px;
+  background: #17b2b3;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .row i{
+  color:#17b2b3;
+  font-size: 30px;
+}
+section .details span{
+  font-size: 14px;
+}*/
+/*.progress-area .row .content{
+  width: 100%;
+  margin-left: 15px;
+}
+.progress-area .details{
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.progress-area .content .progress-bar{
+  height: 6px;
+  width: 100%;
+  margin-bottom: 4px;
+  background: #fff;
+  border-radius: 30px;
+}
+.content .progress-bar .progress{
+  height: 100%;
+  width: 0%;
+  background: #6990F2;
+  border-radius: inherit;
+}*/
+/*.uploaded-area{
+  max-height: 232px;
+  overflow-y: scroll;
+}
+.uploaded-area.onprogress{
+  max-height: 150px;
+}
+.uploaded-area::-webkit-scrollbar{
+  width: 0px;
+}
+.uploaded-area .row .content{
+  display: flex;
+  align-items: center;
+}
+.uploaded-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.uploaded-area .row .details .size{
+  color:#17b2b3;
+  font-size: 11px;
+}
+.uploaded-area i.fa-check{
+  font-size: 16px;
+}*/
+/*#display_image{
+	position: absolute;
+    bottom: 50px;
+    left: 80px;
+	width:200px;
+	height: 150px;
+	object-fit: none;
+	border: 1px solid black;
+	background-position: center;
+	background-size: cover;
+}*/
