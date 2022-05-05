@@ -1,3 +1,8 @@
+# **2022_IBM_Code_Challenge_EquiMed**
+
+## _Bridging the gap in advanced medical access at remote areas._
+
+
 ## Libraries used
 
 The various libraries used in the project are listed in the [requirements.txt](requirements.txt) file.
