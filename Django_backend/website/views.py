@@ -19,8 +19,8 @@ def mish(inputs):
 tf.keras.utils.get_custom_objects().update({'mish': mish})
 
 
-APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-model = load_model(os.path.join(APP_ROOT,'cataractclassifierV9.h5'))
+
+model = load_model(os.path.join(BASE_DIR,'models/cataractclassifierV9.h5'))
 
 
 def home(request):
