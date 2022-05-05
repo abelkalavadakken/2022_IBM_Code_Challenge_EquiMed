@@ -11,9 +11,17 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 
 # Create your views here.
+
+#mish activation 
 def mish(inputs):
     return inputs * tf.math.tanh(tf.math.softplus(inputs))
+
 tf.keras.utils.get_custom_objects().update({'mish': mish})
+
+
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+model = load_model(os.path.join(APP_ROOT,'cataractclassifierV9.h5'))
+
 
 def home(request):
     if request.method == "POST":
@@ -26,20 +34,18 @@ def home(request):
     return render(request,'home.html')
 
 def analyse(request):
-
     img = Image.objects.all()
     l = len(img)
     x = img[l-1]
-    new_model = load_model(os.path.join(BASE_DIR, 'models/cataractclassifierV10.h5'))
-    new_model.summary()
-    image_folder = str(BASE_DIR) + x.photo.url.replace("/","\\")
-    # test_image = image.load_img(os.path.join(image_folder),target_size=(150,150))
-    test_image = image.img_to_array(test_image)
-    test_image = np.expand_dims(test_image, axis = 0)
-    result = new_model.predict(test_image)
-    if result == 1:
+    img_path = str(BASE_DIR)+ x.photo.url
+    img = image.load_img(img_path, target_size=(128,128,3))
+    img = image.img_to_array(img)
+    img = np.expand_dims(img, axis=0)
+    prediction = model.predict(img)
+    prediction = prediction.argmax()
+    if prediction == 0:
         return render(request,'result.html')
-    else :
+    else:
         return render(request,'noresult.html')
 
     return render(request,'analyse.html')
