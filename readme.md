@@ -1,6 +1,6 @@
 # **2022_IBM_Code_Challenge_EquiMed**
 
-## _Bridging the gap in advanced medical access_
+ _Bridging the gap in advanced medical access_
 
 
 ## Libraries used
