@@ -6,6 +6,10 @@
 
 In developing coutries, the inequality between urban and rural health care is a serious issue. This is due to the shortage of qualified healthcare providers/trained specialists to examine the results. Or, Inability to diagnoise at early stages of the disease. We have developed an application that can be used in remote localities/camps to screen patients for cataract disease and provide treatment to the less privileged ones. And thus bridging the gap between urban and rural medical access. 
 
+## Demo video
+
+https://user-images.githubusercontent.com/80167911/167086236-1cac57b3-e40c-4eee-8a4a-2cc7164f766d.mp4
+
 ## Libraries used
 
 The various libraries used in the project are listed in the [requirements.txt](requirements.txt) file.
