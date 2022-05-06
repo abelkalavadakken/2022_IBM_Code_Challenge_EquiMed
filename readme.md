@@ -26,6 +26,23 @@ It can be installed using
 
 ```pip install -r requirements.txt```
 
+## How to Run
+
+- Open EquiMed.
+
+![1](https://user-images.githubusercontent.com/80167911/167154957-3791f8f6-1e42-4744-a710-da225511d89f.png)
+
+- Upload a picture of the patient's retina.
+
+![2](https://user-images.githubusercontent.com/80167911/167155369-6f09b035-b01c-4ee4-afbb-19d24300f307.png)
+
+- Click "Make Prediction" button.
+
+![3](https://user-images.githubusercontent.com/80167911/167155418-534d6cf8-6951-4fdb-a886-104d11981d92.png)
+
+- Get the prediction result. 
+
+![4](https://user-images.githubusercontent.com/80167911/167155477-4ee9cbd0-572b-4140-b09e-16c52747dd34.png)
 
 
 ## Contributers
