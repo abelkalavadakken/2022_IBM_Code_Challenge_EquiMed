@@ -21,3 +21,13 @@ Other requirements are written in the [requirements.txt](requirements.txt) file.
 It can be installed using 
 
 ```pip install -r requirements.txt```
+
+
+
+## Contributers
+
+[abelkalavadakken](https://github.com/abelkalavadakken)
+
+[Abin-Pilot](https://github.com/Abin-Pilot)
+
+[SuryaDasN](https://github.com/SuryaDasN)
