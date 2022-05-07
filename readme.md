@@ -44,6 +44,12 @@ It can be installed using
 
 ![4](https://user-images.githubusercontent.com/80167911/167155477-4ee9cbd0-572b-4140-b09e-16c52747dd34.png)
 
+## Datasets
+
+[ODIR5K](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k)
+
+[Cataract Dataset](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)
+
 
 ## Contributers
 
