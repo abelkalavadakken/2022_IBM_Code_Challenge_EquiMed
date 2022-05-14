@@ -26,7 +26,12 @@ It can be installed using
 
 ```pip install -r requirements.txt```
 
-## How to Run
+## Block Diagram
+
+[IBM-EquiMed-31](https://user-images.githubusercontent.com/82874929/168413432-b4044d39-9dbb-4851-8e55-274ac76ea666.png)
+
+## How to Run!
+
 
 - Open EquiMed.
 
