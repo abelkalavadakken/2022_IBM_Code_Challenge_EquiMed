@@ -28,7 +28,8 @@ It can be installed using
 
 ## Block Diagram
 
-[IBM-EquiMed-31](https://user-images.githubusercontent.com/82874929/168413432-b4044d39-9dbb-4851-8e55-274ac76ea666.png)
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/82874929/168413461-6eb5174e-3b05-45b9-aec2-6afd73d274d9.png">
+
 
 ## How to Run!
 
